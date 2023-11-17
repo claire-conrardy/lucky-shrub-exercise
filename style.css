@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(28, 28, 28);
+}
+
+main {
+  position: relative;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header > img {
+  max-width: 4.5rem;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #27877F;
+  padding: 1.5rem 3rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer__logo > img {
+  max-width: 3rem;
+}
